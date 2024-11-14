@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Phone Book App</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="calendar_icon">Calendar Icon</string>
+</resources>
