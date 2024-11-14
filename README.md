@@ -18,8 +18,24 @@
    - If prompted, enable “Install from unknown sources” in your device settings.
    - Follow the on-screen instructions to complete the installation.
 
-## Screenshots 📸
-*(Add screenshots here if available)*
+<h2>Screenshots 📸</h2>
+
+<h3>Splash Screen</h3>
+<img src="Splash_screen.png" alt="Splash Screen" width="300"/>
+
+<h3>Home Screen</h3>
+<img src="Empty_Home.png" alt="Home Screen" width="300"/>
+
+<h3>Add Contact Screen</h3>
+<img src="Empty_saved_screen.png" alt="Add Contact Screen" width="300"/>
+<img src="Filed_saved_Screen.png" alt="Add Contact Screen" width="300"/>
+
+<h3>Home Screen With Contacts </h3>
+<img src="Filled_Screen.png" alt="Home Screen After Adding Contact" width="300"/>
+
+<h3>Edit Contact Screen</h3>
+<img src="Edit_Option.png" alt="Edit Contact Screen" width="300"/>
+
 
 ## Tech Stack 🛠️
 
