@@ -12,7 +12,7 @@
 
 ## Getting Started 📲
 
-1. **Download the APK**: [Download PhonebookApp.apk](https://github.com/your-username/PhonebookApp/releases/download/v1.0/PhonebookApp.apk)
+1. **Download the APK**: [Download PhonebookApp.apk](debug/app-debug.apk)
 2. **Install the App**:
    - Open the downloaded APK file on your Android device.
    - If prompted, enable “Install from unknown sources” in your device settings.
