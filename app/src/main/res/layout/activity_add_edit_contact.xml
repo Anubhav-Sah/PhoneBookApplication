@@ -1,0 +1,218 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:padding="16dp"-->
+<!--    android:gravity="center"-->
+<!--    android:layout_gravity="center"-->
+<!--    android:background="@drawable/background_image">-->
+
+
+<!--    &lt;!&ndash; Save Button &ndash;&gt;-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/text_input_layout"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="200dp"-->
+<!--        android:hint="Name"-->
+<!--        android:textColorHint="#DFC5E4"-->
+<!--        app:counterEnabled="true"-->
+<!--        app:counterMaxLength="20"-->
+<!--        app:endIconMode="clear_text"-->
+<!--        app:helperText="*required"-->
+<!--        app:helperTextTextColor="#FF0000"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:startIconDrawable="@drawable/baseline_account_circle_24">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/editTextName"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="90dp"-->
+<!--            android:textSize="20sp"-->
+<!--            android:maxLength="20" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/text_input_layout2"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:hint="Number"-->
+<!--        android:textColorHint="#DFC5E4"-->
+<!--        app:counterEnabled="true"-->
+<!--        app:counterMaxLength="10"-->
+<!--        app:endIconMode="custom"-->
+<!--        app:errorEnabled="true"-->
+<!--        app:helperText="*required"-->
+
+<!--        app:helperTextTextColor="#FF0000"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/text_input_layout"-->
+
+
+<!--        app:prefixTextColor="#FFFFFF"-->
+<!--        app:startIconDrawable="@drawable/baseline_phone_24"-->
+<!--        tools:layout_editor_absoluteX="16dp">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/editTextPhone"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="90dp"-->
+<!--            android:layout_marginStart="12dp"-->
+<!--            android:inputType="number"-->
+<!--            android:maxLength="13"-->
+<!--            android:textSize="20sp" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonSave"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Save"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/text_input_layout2"-->
+<!--        app:layout_constraintVertical_bias="0.121" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonDelete"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Delete"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/buttonSave"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView3"-->
+<!--        android:layout_width="101dp"-->
+<!--        android:layout_height="104dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/text_input_layout"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/baseline_account_circle_24" />-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/background_image">
+
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@drawable/account_circle"
+        android:layout_marginEnd="12dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp"
+        android:elevation="6dp">
+
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/account_circle"
+            android:contentDescription="@string/calendar_icon"
+            android:layout_marginEnd="8dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name "
+            android:inputType="textPersonName"
+            android:textColorHint="#BFBFBF"
+            android:textColor="#333333"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp"
+        android:elevation="6dp">
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_phone_24"
+            android:contentDescription="Calendar Icon"
+            android:layout_marginEnd="8dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Number"
+            android:inputType="phone"
+            android:textColorHint="#BFBFBF"
+            android:textColor="#333333"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0E8E98"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:drawablePadding="8dp"
+        android:elevation="8dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0E8E98"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:drawablePadding="8dp"
+        android:elevation="8dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+</LinearLayout>

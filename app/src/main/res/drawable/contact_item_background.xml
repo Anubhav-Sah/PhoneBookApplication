@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- curve_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="#E1E3E4" />
+
+
+    <corners android:radius="18dp" />
+
+    <!-- Optional: Set padding inside the shape -->
+    <padding
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp"
+        android:bottom="8dp" />
+
+
+    <stroke
+        android:width="2dp"
+        android:color="#E1E3E4" />
+</shape>
